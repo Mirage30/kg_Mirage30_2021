@@ -2,6 +2,10 @@ import sys
 
 
 def check_map(src, tar):
+    '''
+    src: source string, s1
+    tar: target string, s2
+    '''
     if len(src) != len(tar):
         return False
     map = {}
